@@ -1,0 +1,29 @@
+/* Empty. Add your own CSS if you like */
+.onibus{
+    background-image : url('../img/onibus.png');
+    height: 82px;
+    width: 64px;
+    float: left;
+    background-repeat: no-repeat;
+}
+
+.numeroOnibus{
+    font-weight: bold;
+    font-size: 9px;
+    width: 64px;
+    text-align: center;
+    color: white;
+}
+
+.numeroLinha{
+    text-indent: 16px;
+    padding-top: 16px;
+    font-weight: bold;       
+}
+
+.previsao{
+    text-align: center;
+    width: 100%;
+    padding-top: 6px;
+    font-weight: bold;       
+}

@@ -1,0 +1,23 @@
+<ion-view>
+  <ion-content class="padding">
+
+      <div style="width: 100%;" ng-repeat="parada in paradas">
+        {{parada.parada}}
+        <div ng-repeat="onibus in parada.previsoes">
+          <div class="onibus">     
+            <div class="numeroLinha">
+              {{onibus.linha}}
+            </div>
+            <div class="numeroOnibus">
+              {{onibus.numero}}
+            </div>
+            <div class="previsao">
+              {{onibus.previsao}}
+            </div>            
+          </div>          
+        </div>
+      </div>
+
+      
+  </ion-content>
+</ion-view>
