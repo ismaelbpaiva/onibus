@@ -1,0 +1,16 @@
+<ion-view>
+  <ion-content class="padding">
+
+      <ion-list ng-repeat="parada in paradas">
+        {{parada.parada}}
+        <ion-list ng-repeat="onibus in parada.previsoes">
+          <div style="float: left;">
+            {{onibus.numero}}
+          </div>
+          
+        </ion-list>
+      </ion-list>
+
+      
+  </ion-content>
+</ion-view>
